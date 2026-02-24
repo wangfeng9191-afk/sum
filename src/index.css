@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Noto+Serif+SC:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-ghibli: "Gaegu", cursive;
+  --font-serif-ghibli: "Noto Serif SC", serif;
+}
+
+@layer base {
+  body {
+    @apply font-ghibli bg-[#fdfaf1];
+  }
+}
+
+.ghibli-card {
+  @apply bg-[#fffef9] border-2 border-[#8b7355]/20 rounded-[2rem] shadow-[0_8px_0_0_rgba(139,115,85,0.1)];
+}
+
+.ghibli-btn {
+  @apply bg-[#8b7355] text-white rounded-2xl px-6 py-3 font-bold hover:bg-[#7a654a] transition-all active:translate-y-1 shadow-[0_4px_0_0_rgba(0,0,0,0.2)];
+}

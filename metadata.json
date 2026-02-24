@@ -1,0 +1,5 @@
+{
+  "name": "SumBurst (数字爆发)",
+  "description": "一款数学益智游戏，通过累加方块数值达到目标。清除棋盘，在不断上升的方块中生存！",
+  "requestFramePermissions": []
+}
